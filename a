@@ -96,3 +96,13 @@
          为命令配置别名：git config --global alias.st status
          可查询帮助：git config --help
          查询目录状态：git config --list
+         ssh-keygen -t rsa -C "2022887042@qq.com"后查看密匙进入github粘贴在
+         ssh -T git@github.com  然后克隆
+         git clone git@github.com:clq741/cpp.git
+         git status 随时查看状态
+         ls -l可查看文件信息
+         git remote add origin git@github.com:clq741/cpp.git
+         git remove -v 查看远程仓库信息
+         然后git push -u origin master
+             git pull origin master
+         git rm 文件名可用于删除文件
