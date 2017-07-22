@@ -29,4 +29,5 @@ void max_min(int a[],int n,int *max,int *min)
             else  if(a[i]<*min)
                 *min=a[i];
        }
+       
 }
