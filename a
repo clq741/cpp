@@ -94,3 +94,5 @@
          从远程仓库删除标签：gitpush origin :refs/tags/标签名
 
          为命令配置别名：git config --global alias.st status
+         可查询帮助：git config --help
+         查询目录状态：git config --list
